@@ -1,0 +1,59 @@
+﻿pageName: Appointment
+locator:
+ appointmentReason:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.EditText[@text='Reason']"
+ firstAvailableAppointmentButton:
+  typeOfLocator: accessibility
+  attributeValue: "First available appointment"
+ chooseDatesButton:
+  typeOfLocator: accessibility
+  attributeValue: "Choose dates"
+ okButton:
+  typeOfLocator: accessibility
+  attributeValue: "OK"
+ calendarIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup[@index='8']"
+ myContact:
+  typeOfLocator: accessibility
+  attributeValue: "My contact [missing {{number}} value]"
+ nextMonth:
+  typeOfLocator: accessibility
+  attributeValue: "Next month"
+ okButton:
+  typeOfLocator: accessibility
+  attributeValue: "OK"
+ appointmentTiming9-11Am:
+  typeOfLocator: accessibility
+  attributeValue: "9-11Am"
+ appointmentTiming11Am-1pm:
+  typeOfLocator: accessibility
+  attributeValue: "11Am-1pm"
+ appointmentTiming1-3pm:
+  typeOfLocator: accessibility
+  attributeValue: "1-3pm"
+ appointmentTiming3-5pm:
+  typeOfLocator: accessibility
+  attributeValue: "3-5pm"
+ appointmentTiming5-7pm:
+  typeOfLocator: accessibility
+  attributeValue: "5-7pm"
+ doneButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Done']"
+ sendButton:
+  typeOfLocator: accessibility
+  attributeValue: "Send"
+ appointmentConfirmationButton:
+  typeOfLocator: accessibility
+  attributeValue: "OK"
+ editDetailsButton:
+  typeOfLocator: accessibility
+  attributeValue: "Edit details"
+ addChoiceIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Add Choice']"
+ appointmentDetails:
+  typeOfLocator: accessibility
+  attributeValue: "3:30 PM – 3:45 PM: Follow-up (VARIANTEST:At_2020)"

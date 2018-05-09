@@ -1,0 +1,5 @@
+﻿pageName: SecurityPinUnclock
+locator:
+  keyPadKey0:
+    typeOfLocator: xpath
+    attributeValue: "//android.widget.TextView[@text='0']/.."

@@ -1,0 +1,8 @@
+﻿pageName: Surveys
+locator:
+ homeIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup[@content-desc='Home Icon Button']"
+ hamburgerMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup[@content-desc='Hamburger Menu']"

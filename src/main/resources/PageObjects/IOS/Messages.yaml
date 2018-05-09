@@ -1,0 +1,68 @@
+﻿pageName: Messages
+locator:
+ addNewMessageIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Add New Message Button"
+ addToRecipient:
+  typeOfLocator: accessibility
+  attributeValue: "Add To Recipient Icon"
+ addCCRecipient:
+  typeOfLocator: accessibility
+  attributeValue: "Add Cc Recipient Icon"
+ messagesList:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther"
+ toRecipientList:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther"
+ addToRecipientName:
+   typeOfLocator: accessibility
+   attributeValue: "Name"
+ sentMessagesTab:
+  typeOfLocator: accessibility
+  attributeValue: "Sent"
+ okButton:
+  typeOfLocator: accessibility
+  attributeValue: "OK"
+ doneButton:
+   typeOfLocator: accessibility
+   attributeValue: "Done"
+ subjectText:
+  typeOfLocator: accessibility
+  attributeValue: "Suject TextBox"
+ addAttachment:
+  typeOfLocator: accessibility
+  attributeValue: "accessibility.messages.addAttachment"
+ bodyText:
+  typeOfLocator: accessibility
+  attributeValue: "Message body TextBox Start typing here"
+ sendButton:
+  typeOfLocator: accessibility
+  attributeValue: "Send Message"
+ backButton:
+  typeOfLocator: accessibility
+  attributeValue: "Back Icon Button"
+ acceptAlert:
+  typeOfLocator: accessibility
+  attributeValue: "Yes"
+ dismissAlert:
+  typeOfLocator: accessibility
+  attributeValue: "No"
+ MessagesLabel:
+  typeOfLocator: accessibility
+  attributeValue: "Messages"
+ newMessageLabel:
+  typeOfLocator: accessibility
+  attributeValue: "New Message"
+ sendButtonForWithoutSubject:
+  typeOfLocator: accessibility
+  attributeValue: "Send"
+ sendButtonForWithoutMessage:
+  typeOfLocator: accessibility
+  attributeValue: "Send"
+ addContentButton:
+  typeOfLocator: accessibility
+  attributeValue: "Add Content"
+ addSubjectButton:
+  typeOfLocator: accessibility
+  attributeValue: "Add Subject"

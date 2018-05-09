@@ -1,0 +1,8 @@
+﻿pageName: CompletedTasks
+locator:
+ completedTab:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Completed']/.."
+ taskLabel:
+  typeOfLocator: accessibility
+  attributeValue: "Tasks"

@@ -1,0 +1,14 @@
+﻿pageName: WelcomeScreen
+locator:
+ skipButton:
+  typeOfLocator: accessibility
+  attributeValue: "Skip tour button"
+ inboxLabelText:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Inbox']"
+ newTasksLabelText:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='New Tasks']"
+ calendarLabelText:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Calendar']"

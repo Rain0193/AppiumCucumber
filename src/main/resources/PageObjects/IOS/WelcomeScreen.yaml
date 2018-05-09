@@ -1,0 +1,14 @@
+﻿pageName: WelcomeScreen
+locator:
+ skipButton:
+  typeOfLocator: accessibility
+  attributeValue: "Skip tour button"
+ inboxLabelText:
+  typeOfLocator: accessibility
+  attributeValue: "Messaging Inbox"
+ newTasksLabelText:
+  typeOfLocator: accessibility
+  attributeValue: "Adding New Task"
+ calendarLabelText:
+  typeOfLocator: accessibility
+  attributeValue: "Calendar"

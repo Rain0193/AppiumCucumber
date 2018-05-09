@@ -1,0 +1,122 @@
+﻿pageName: Messages
+locator:
+ addNewMessageIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@content-desc='Add New Message Button']"
+ addToRecipient:
+  typeOfLocator: accessibility
+  attributeValue: "Add To Recipient Icon"
+ addCCRecipient:
+  typeOfLocator: accessibility
+  attributeValue: "Add Cc Recipient Icon"
+ addToRecipientName:
+   typeOfLocator: accessibility
+   attributeValue: "Name"
+ doneButton:
+   typeOfLocator: xpath
+   attributeValue: "//android.widget.Button[@content-desc='Done']"
+ addCcRecipient:
+  typeOfLocator: accessibility
+  attributeValue: "accessibility.messages.addCcRecipient"
+ subjectText:
+  typeOfLocator: accessibility
+  attributeValue: "Suject TextBox"
+ addAttachment:
+  typeOfLocator: accessibility
+  attributeValue: "accessibility.messages.addAttachment"
+ bodyText:
+  typeOfLocator: accessibility
+  attributeValue: "Message body TextBox"
+ sendButton:
+  typeOfLocator: accessibility
+  attributeValue: "Send Message"
+ toRecipientList:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='0']/.."
+ sentMessagesTab:
+  typeOfLocator: accessibility
+  attributeValue: "Sent"
+ okButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='4']"
+ backButton:
+  typeOfLocator: accessibility
+  attributeValue: "Back Icon Button"
+ acceptAlert:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='YES']"
+ dismissAlert:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='2']"
+ MessagesLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Messages']"
+ newMessageLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='New Message']"
+ messagesList:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView"
+ sendButtonForWithoutSubject:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='SEND']"
+ sendButtonForWithoutMessage:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='SEND']"
+ addContentButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='ADD CONTENT']"
+ addSubjectButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='ADD SUBJECT']"
+ subjectTextLimit:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='7']"
+ subjectTextWarningMessage:
+  typeOfLocator: accessibility
+  attributeValue: "The subject cannot exceed 100 characters"
+ addAttachmentIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Add Attachment Icon"
+ messagetimeStamp:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.ScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup[0]"
+ replyMessageButton:
+  typeOfLocator: accessibility
+  attributeValue: "Reply Message"
+ replyAllMessageButton:
+  typeOfLocator: accessibility
+  attributeValue: "Reply All Message"
+ forwardMessageButton:
+  typeOfLocator: accessibility
+  attributeValue: "Forward Message"
+ sentMessage:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.ScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup[0]"
+ messageText:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='6']"
+ messageDetailsLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Message Details']"
+ senderName:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='1']"
+ messageTimestamp:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='2']"
+ messageSubject:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='3']"
+ toReceipient:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='4']"
+ toReceipientName:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='5']"
+ moreDetails:
+  typeOfLocator: accessibility
+  attributeValue: "More Details"
+ lessDetails:
+  typeOfLocator: accessibility
+  attributeValue: "Less Details"

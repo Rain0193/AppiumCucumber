@@ -1,0 +1,33 @@
+﻿pageName: HomePage
+locator:
+ tasksMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Tasks']/.."
+ messagesMenu:
+  typeOfLocator: accessibility
+  attributeValue: "Messages"
+ surveysMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Surveys']/.."
+ calendarMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Calendar']/.."
+ profileMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Profile']/.."
+ addMessagesIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Add Message"
+ addTasksIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup//android.widget.TextView[@text='\uF412']/.."
+ addAppointmentIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup//android.widget.TextView[@text='']/.."
+ homeIcon:
+   typeOfLocator: xpath
+   attributeValue: "//android.view.ViewGroup[@content-desc='Home Icon Button']"
+ addTaskButton:
+   typeOfLocator: xpath
+   attributeValue: "//android.view.ViewGroup[@content-desc='Add Task']"
+

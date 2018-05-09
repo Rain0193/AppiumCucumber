@@ -1,0 +1,17 @@
+﻿pageName: HamburgerMenu
+locator:
+ hamburgerMenuIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Hamburger Menu"
+ helpLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Help']"
+ settingsLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Settings']"
+ aboutLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='About']"
+ logoutLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Logout']"

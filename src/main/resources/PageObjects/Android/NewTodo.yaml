@@ -1,0 +1,34 @@
+﻿pageName: NewTodo
+locator:
+ taskName:
+  typeOfLocator: accessibility
+  attributeValue: "Task Description"
+ dueDate:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Due Date']"
+ saveButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='SAVE']"
+ calenderIcon:
+  typeOfLocator: xpath
+  attributeValue: "//android.view.ViewGroup[@index='6']"
+ taskNameTextEdit:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.EditText[@index='0']"
+ appBackButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='']"
+ acceptAlert:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='YES']"
+ dismissAlert:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='2']"
+ newTask:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='New Task']"
+
+
+
+
+

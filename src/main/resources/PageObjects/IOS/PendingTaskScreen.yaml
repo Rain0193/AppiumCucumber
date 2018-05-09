@@ -1,0 +1,26 @@
+﻿pageName: PendingTasks
+locator:
+ pendingTab:
+  typeOfLocator: accessibility
+  attributeValue: "Pending"
+ completedTab:
+  typeOfLocator: accessibility
+  attributeValue: "Completed"
+ addTask:
+  typeOfLocator: accessibility
+  attributeValue: "Add New Task Button"
+ taskLabel:
+  typeOfLocator: accessibility
+  attributeValue: "Tasks"
+ pendingTabFocus:
+  typeOfLocator: accessibility
+  attributeValue: "Pending"
+ tasksList:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/."
+ pendingTaskCheckbox:
+  typeofLocator: xpath
+  attributeValue: "//android.widget.ScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup//android.widget.TextView[@text='']"
+ tasksWithName:
+  typeofLocator: xpath
+  attributeValue: "//android.widget.TextView[contains(@text,'NAME')]"

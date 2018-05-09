@@ -1,0 +1,20 @@
+﻿pageName: Calendar
+locator:
+ currentYear:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='0']"
+ fromYear:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='6']"
+ toYear:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@index='0']"
+ yearsCount:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.ListView//android.widget.TextView"
+ day:
+  typeOfLocator: xpath
+  attributeValue: "//com.android.internal.widget.ViewPager//android.view.View//android.view.View"
+ okButton:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.Button[@text='OK']"

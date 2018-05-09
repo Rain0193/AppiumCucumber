@@ -1,0 +1,29 @@
+﻿pageName: HomePage
+locator:
+ tasksMenu:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther"
+ tasks:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/.."
+ messagesTab:
+  typeOfLocator: accessibility
+  attributeValue: "accessibility.home.addMessageButton"
+ messagesMenu:
+  typeOfLocator: xpath
+  attributeValue: "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]"
+ surveysMenu:
+  typeOfLocator: accessibility
+  attributeValue: " Surveys "
+ calendarMenu:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Calendar']/.."
+ addMessagesIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Add Message"
+ addTasksIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Add Task"
+ homeIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Home Icon Button"

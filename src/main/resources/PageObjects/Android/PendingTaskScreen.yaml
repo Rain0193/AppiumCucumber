@@ -1,0 +1,29 @@
+﻿pageName: PendingTasks
+locator:
+ pendingTab:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@content-desc='Pending']"
+ completedTab:
+  typeOfLocator: accessibility
+  attributeValue: "//android.widget.TextView[@content-desc='Completed']"
+ addTask:
+  typeOfLocator: accessibility
+  attributeValue: "Add New Task Button"
+ taskLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Tasks']"
+ pendingTabFocus:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Pending']"
+ tasksList:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView"
+ pendingTaskCheckbox:
+  typeofLocator: xpath
+  attributeValue: "//android.widget.ScrollView//android.view.ViewGroup//android.view.ViewGroup//android.view.ViewGroup//android.widget.TextView[@text='']"
+ tasksWithName:
+  typeofLocator: xpath
+  attributeValue: "//android.widget.TextView[contains(@text,'NAME')]"
+ taskName:
+  typeofLocator: xpath
+  attributeValue: "//android.widget.TextView[contains(@text,'replaceVariable')]"

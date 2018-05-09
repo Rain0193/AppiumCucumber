@@ -1,0 +1,8 @@
+﻿pageName: Surveys
+locator:
+ homeIcon:
+  typeOfLocator: accessibility
+  attributeValue: "Home Icon Button"
+ hamburgerMenu:
+  typeOfLocator: accessibility
+  attributeValue: "Hamburger Menu"

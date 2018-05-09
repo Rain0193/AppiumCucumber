@@ -1,0 +1,35 @@
+﻿pageName: NewTodo
+locator:
+ taskName:
+  typeOfLocator: accessibility
+  attributeValue: "Task* Task Description"
+ dueDate:
+  typeOfLocator: accessibility
+  attributeValue: ""
+ saveButton:
+  typeOfLocator: accessibility
+  attributeValue: "Save Task Button"
+ taskNameTextEdit:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.EditText[@index='0']"
+ taskNameTextEdit:
+  typeOfLocator: accessibility
+  attributeValue: "Task Description"
+ appBackButton:
+  typeOfLocator: accessibility
+  attributeValue: "Back Icon Button"
+ acceptAlert:
+  typeOfLocator: accessibility
+  attributeValue: "Yes"
+ dismissAlert:
+  typeOfLocator: accessibility
+  attributeValue: "No"
+ newTask:
+  typeOfLocator: accessibility
+  attributeValue: "New Task"
+
+
+
+
+
+

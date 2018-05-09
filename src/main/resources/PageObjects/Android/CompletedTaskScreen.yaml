@@ -1,0 +1,8 @@
+﻿pageName: CompletedTasks
+locator:
+ completedTab:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@content-desc='Completed']/.."
+ taskLabel:
+  typeOfLocator: xpath
+  attributeValue: "//android.widget.TextView[@text='Tasks']"
